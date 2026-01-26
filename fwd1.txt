@@ -1,0 +1,8 @@
+/ip dns static
+add address-list=fuckrkn match-subdomain=yes name=youtube.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=youtu.be type=FWD
+add address-list=fuckrkn match-subdomain=yes name=yt.be type=FWD
+add address-list=fuckrkn match-subdomain=yes name=googlevideo.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=ytimg.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=ggpht.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=gvt1.com type=FWD

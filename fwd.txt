@@ -1,6 +1,3 @@
 add address-list=fuckrkn match-subdomain=yes name=gvt1.com type=FWD
 add address-list=fuckrkn match-subdomain=yes name=instagram.com type=FWD
-add address-list=fuckrkn match-subdomain=yes name=x.com type=FWD
-add address-list=fuckrkn match-subdomain=yes name=twitter.com type=FWD
-add address-list=fuckrkn match-subdomain=yes name=twimg.com type=FWD
-add address-list=fuckrkn match-subdomain=yes name=openai.com type=FWD
+/ip dns static add name=1337x.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

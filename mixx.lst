@@ -1,0 +1,22 @@
+/ip firewall address-list
+add address=youtube.com list=fuckrkn
+add address=youtu.be list=fuckrkn
+add address=yt.be list=fuckrkn
+add address=googlevideo.com list=fuckrkn
+add address=ytimg.com list=fuckrkn
+add address=gvt1.com list=fuckrkn
+add address=youtube.googleapis.com list=fuckrkn
+add address=instagram.com list=fuckrkn
+add address=x.com list=fuckrkn
+
+
+/ip dns static
+add address-list=fuckrkn match-subdomain=yes name=youtube.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=youtu.be type=FWD
+add address-list=fuckrkn match-subdomain=yes name=yt.be type=FWD
+add address-list=fuckrkn match-subdomain=yes name=googlevideo.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=ytimg.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=ggpht.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=gvt1.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=instagram.com type=FWD
+add address-list=fuckrkn match-subdomain=yes name=x.com type=FWD

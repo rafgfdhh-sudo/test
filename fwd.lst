@@ -1,2 +1,10 @@
+/ip dns static add name=*.ua type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=10minutemail.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=1337x.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=24.kg type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=4freerussia.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=4pda.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=4pda.ws type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=4pna.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=5sim.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=7dniv.rv.ua type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
